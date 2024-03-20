@@ -183,7 +183,7 @@
 	`
 	```
 
-9. Set и Map, для чего используются
+9. Set и Map, для чего используются  
 	**Map** - коллекция ключ-значение, как и Object, ключи могут быть любого типа
 	```
 	const map = new Map()
@@ -210,7 +210,7 @@
 	console.log(obj.hasOwnProperty('car')) // true
 	console.log('year' in obj) // true
 	```
-11. Способы создания объектов
+11. Способы создания объектов  
 	**Function:**
 	```
 	function User (name, surname) {
