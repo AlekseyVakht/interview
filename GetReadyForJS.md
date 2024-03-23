@@ -158,7 +158,7 @@
 	function createIncrement() {
 		let count = 0;
 		function increment() {
-			count++
+			return count++
 		}
 		function getMessage() {
 			let message = `Count is ${count}`
@@ -166,7 +166,8 @@
 		}
 		return [increment, getMessage]
 	}
-	
+
+	const [increment, getMessage] = createIncrement();
 	console.log(increment()) // 1
 	console.log(increment()) // 2
 	console.log(increment()) // 3
